@@ -1,0 +1,16 @@
+{
+    "moxa":{"ip":"einfügen", "ports": [1,2,3], "timeout_s": 1},
+    "channels":{
+        "velleman":{
+            "name":"velleman1",
+            "tcpport":1,
+            "channel":1
+        },
+        "umpoler":{
+            "name":"umpoler1",
+            "tcpport":2,
+            "channel":2
+        }
+    }
+
+}

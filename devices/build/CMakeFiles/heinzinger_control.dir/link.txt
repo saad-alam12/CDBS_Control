@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -bundle -Wl,-headerpad_max_install_names -Xlinker -undefined -Xlinker dynamic_lookup -flto -o heinzinger_control.cpython-313-darwin.so CMakeFiles/heinzinger_control.dir/bindings.cpp.o CMakeFiles/heinzinger_control.dir/Heinzinger.cpp.o CMakeFiles/heinzinger_control.dir/ProjectGlobals.cpp.o   -L/opt/homebrew/lib  -Wl,-rpath,/opt/homebrew/lib -lusb-1.0
