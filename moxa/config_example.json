@@ -1,0 +1,5 @@
+{
+    "moxa":{"ip":"einfügen", "ports": [1,2,3], "timeout_s": 1}
+}
+
+
